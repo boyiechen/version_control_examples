@@ -19,6 +19,7 @@ library(cowplot)
 library(xtable)
 library(openxlsx)
 library(mFilter)
+library(assertthat)
 
 #' @section data cleaning
 source("./code/cleaning/data_cleaning.R")

@@ -103,6 +103,16 @@
       ],
       "Hash": "44b6ca3a6d22b4c87cdd6140e6f15245"
     },
+    "assertthat": {
+      "Package": "assertthat",
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "tools"
+      ],
+      "Hash": "50c838a310445e954bc13f26f26a6ecf"
+    },
     "bit": {
       "Package": "bit",
       "Version": "4.0.5",

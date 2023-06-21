@@ -1,7 +1,7 @@
 #env
 .DS_Store
 svar_model/result/*
-docker_demo/scripts/version_control_examples/*
+docker_demo/scripts/version_control_examples
 
 # History files
 .Rhistory

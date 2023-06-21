@@ -10,4 +10,9 @@ if (!dir.exists("./result")){
 if (!dir.exists("./data")){
     dir.create("./data")
 }
-
+if (!dir.exists("./result/figure")){
+    dir.create("./result/figure")
+}
+if (!dir.exists("./result/table")){
+    dir.create("./result/table")
+}

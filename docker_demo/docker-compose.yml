@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rservice:
+    image: r-base:4.3.1
+    volumes:
+      - /Users/boyie/Dropbox/boyie_dropbox/external_share/version_control_examples:/dropbox
+      - ./scripts:/scripts
+    entrypoint: ["/bin/bash", "-c", "/scripts/setup.sh && /bin/bash"]
+

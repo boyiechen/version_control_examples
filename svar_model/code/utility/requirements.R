@@ -41,5 +41,7 @@ pkgLoad <- function( packages = "requirements" ) {
   }
   
 }
-pkgLoad()
+pkgLoad("renv")
 renv::status()
+renv::restore()
+

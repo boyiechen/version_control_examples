@@ -1,7 +1,6 @@
 #env
 .DS_Store
 svar_model/result/*
-svar_model/renv/*
 
 # History files
 .Rhistory

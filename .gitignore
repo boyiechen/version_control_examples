@@ -2,6 +2,8 @@
 .DS_Store
 svar_model/result/*
 docker_demo/scripts/version_control_examples
+docker_demo/scripts/rstudio
+docker_demo/.rstudio_config
 
 # History files
 .Rhistory

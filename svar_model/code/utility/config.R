@@ -16,3 +16,9 @@ if (!dir.exists("./result/figure")){
 if (!dir.exists("./result/table")){
     dir.create("./result/table")
 }
+if (!dir.exists("./data")){
+    dir.create("./data")
+}
+if (!dir.exists("./data/intermideate_result")){
+    dir.create("./data/intermideate_result")
+}

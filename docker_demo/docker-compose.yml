@@ -13,7 +13,9 @@ services:
       - 8787:8787
     environment:
       PASSWORD : rstudio
+      ROOT : TRUE
     volumes:
       - ./.rstudio_config:/home/rstudio/.config/rstudio
       - ~/workspace:/home/rstudio/workspace
       - ./scripts:/home/rstudio/workspace/scripts
+      - /Users/boyie/Dropbox/boyie_dropbox/external_share/version_control_examples:/dropbox
